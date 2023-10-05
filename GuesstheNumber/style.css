@@ -1,0 +1,98 @@
+nav {
+  background-color: black;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 8rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  width: auto;
+  height: 4rem;
+  padding: 0 2rem;
+  font-size: 2rem;
+  background-color: cyan;
+  margin: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px black;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: blue;
+  color: white;
+}
+.container p {
+  font-size: 2rem;
+}
+
+input {
+  height: 3.5rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  flex-direction: row;
+}
+
+.output-container p {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.disabled-button {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}
+
+.disabled-button:hover {
+  background-color: grey;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 2rem;
+  margin: 0.5rem;
+}

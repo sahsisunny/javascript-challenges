@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the Number</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Guess the Number</h1>
+    </nav>
+    <main>
+      <div class="container">
+        <p>
+          Enter the Guess between <strong>0</strong> to <strong>100</strong>
+        </p>
+        <input type="number" id="input-number" placeholder="Enter the Guess" />
+      </div>
+      <div class="container button-container">
+        <button id="submit-button" class="button submit-button">Submit</button>
+        <button
+          id="start-button"
+          class="button start-button disabled-button"
+          disabled
+        >
+          Restart Game
+        </button>
+      </div>
+      <div class="output-container">
+        <p id="score-sensitivity"></p>
+        <p id="guess-number"></p>
+      </div>
+      <div class="instructions">
+        <h2>Instructions</h2>
+        <ul>
+          <li>You have to guess the number between 0 to 100</li>
+          <li>You will get 10 chances to guess the number</li>
+          <li>If you guess the number correctly you will win the game</li>
+          <li>
+            If you are not able to guess the number in 10 chances you will lose
+            the game
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
