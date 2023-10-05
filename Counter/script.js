@@ -7,27 +7,27 @@ const resetButton = document.getElementById("reset-button");
 let number = 0;
 
 function getNumber() {
-    number = parseInt(inputNumber.value) || 0;
+  number = parseInt(inputNumber.value) || 0;
 }
 
 function updateOutputNumber(newValue) {
-    const currentNumber = parseInt(outputNumber.textContent) || 0;
-    outputNumber.textContent = currentNumber + newValue;
+  const currentNumber = parseInt(outputNumber.textContent) || 0;
+  outputNumber.textContent = currentNumber + newValue;
 }
 
 function addNumber() {
-    getNumber();
-    updateOutputNumber(number > 0 ? number : 1);
+  getNumber();
+  updateOutputNumber(number > 0 ? number : 1);
 }
 
 function subtractNumber() {
-    getNumber();
-    updateOutputNumber(number > 0 ? -number : -1);
+  getNumber();
+  updateOutputNumber(number > 0 ? -number : -1);
 }
 
 function resetAll() {
-    inputNumber.value = "";
-    outputNumber.textContent = 0;
+  inputNumber.value = "";
+  outputNumber.textContent = 0;
 }
 
 addButton.addEventListener("click", addNumber);

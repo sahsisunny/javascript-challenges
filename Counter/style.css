@@ -1,78 +1,78 @@
 nav {
-    background-color: black;
-    color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: black;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main h1 {
-    font-size: 8rem;
+  font-size: 8rem;
 }
 
 .container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
-    width: 4rem;
-    height: 4rem;
-    font-size: 2rem;
-    background-color: cyan;
-    margin: 0.5rem;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    box-shadow: 0 2px 5px black;
-    cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  background-color: cyan;
+  margin: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px black;
+  cursor: pointer;
 }
 
 #subtract-button:hover {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
 
 #add-button:hover {
-    background-color: green;
-    color: white;
+  background-color: green;
+  color: white;
 }
 
 .container p {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 input {
-    width: 6rem;
-    height: 3.5rem;
-    font-size: 2rem;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    text-align: center;
+  width: 6rem;
+  height: 3.5rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
 }
 
 #reset-button {
-    width: auto;
-    padding: 1rem;
-    background: #000;
-    color: white;
-    padding: 0 2rem;
+  width: auto;
+  padding: 1rem;
+  background: #000;
+  color: white;
+  padding: 0 2rem;
 }
 
 #reset-button:hover {
-    background: white;
-    color: #000;
+  background: white;
+  color: #000;
 }
