@@ -1,0 +1,69 @@
+nav {
+  background-color: black;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 8rem;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container p {
+  font-size: 2rem;
+}
+
+#input-text {
+  padding: 1rem;
+  font-size: 2rem;
+  width: calc(100% - 2rem);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.output-container {
+  width: 80%;
+  border-radius: 0.5rem;
+}
+
+.output {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: rgb(238, 209, 154);
+  border-radius: 10px;
+}
+
+.output p {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.tag {
+  background-color: rgba(1, 81, 255, 0.712);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
